@@ -1,3 +1,112 @@
+
+/* Universal Styles */
 body {
-  background-color: red;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: "Helvetica";
+  opacity: 0.9;
+}
+
+a {
+  color: white;
+
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+/*Header Section*/
+
+header {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid white;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+/*Content*/
+
+.content {
+  /* display: flex;
+  flex-direction: column; */
+  width: 1200px;
+  padding-top: 69px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+
+/*Mission Banner*/
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
+
+.mission .mission-banner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid gray;
+  margin: 0;
+}
+
+.mission-banner h2 {
+  top: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+
+.mission-banner h4 {
+  bottom: 40px;
+  border: 2px solid gray;
+  margin: 0;
 }
