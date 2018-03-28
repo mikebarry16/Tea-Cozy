@@ -19,15 +19,19 @@ h2 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 13px;
+  font-size: 23px;
   font-weight: bold;
 }
 
+h5 {
+  font-size: 17px;
+  font-weight: bold;
+}
 nav {
   padding-right: 10px;
 }
@@ -114,20 +118,70 @@ nav span {
 /*Tea-of-Month */
 
 .Tea-of-Month {
-  display: flex;
-  flex-wrap: wrap;
   width: 1000px;
+  height: 700px;
   margin: 0 auto;
+  text-align: center;
+  border: 1px solid DimGray;
+  margin-top: 50px;
 }
 
-
-.teaofmonth-imagecontent {
+.Tea-Images {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid blue;
+  /* padding: 0;
+  margin: 0; */
+}
+
+.teaofmonth-imagecontent img {
+  border: 1px solid red;
+  margin: 0 15px;
   height: 200px;
   width: 300px;
-  background-color: red;
-  margin: 20px 20px;
-  background-size: cover;
-  border: 1px solid DimGray;
+}
+
+.Tea-Images h4 {
+  margin: 10px 0 22px 0;
+  padding: 0 0;
+}
+
+/*LOCATIONS*/
+
+.Locations {
+  width: 1200px;
+  height: 500px;
+  border: 1px solid blue;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+
+}
+
+.flex-container .location-content {
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  background-color: black;
+  opacity: 1;
+}
+/* Contact */
+.contact {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
 }
