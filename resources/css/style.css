@@ -110,3 +110,24 @@ nav span {
   border: 2px solid gray;
   margin: 0;
 }
+
+/*Tea-of-Month */
+
+.Tea-of-Month {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.teaofmonth-imagecontent {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  background-color: red;
+  margin: 20px 20px;
+  background-size: cover;
+  border: 1px solid DimGray;
+}
